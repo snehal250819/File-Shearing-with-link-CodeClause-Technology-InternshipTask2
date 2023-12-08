@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="file-sharing-container">
+        <h1>File Sharing</h1>
+        <input type="file" id="fileInput" />
+        <button onclick="uploadFile()">Upload File</button>
+        <div id="fileLinkContainer">
+            <p>File Link:</p>
+            <input type="text" id="fileLink" readonly />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.1/firebase-storage.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
